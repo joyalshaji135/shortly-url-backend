@@ -43,7 +43,7 @@ router.post("/shorten", async (req, res) => {
     // ✅ Dynamic BASE_URL based on environment
     const BASE_URL = process.env.BASE_URL || 
                     (process.env.NODE_ENV === 'production' 
-                      ? 'https://sree.com' 
+                      ? 'https://joyalshaji.com' 
                       : `http://${req.headers.host}`);
 
     if (url) {
